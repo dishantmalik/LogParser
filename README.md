@@ -1,4 +1,4 @@
 # LogParser
 
-This log parser scans CloudTrail logs and searches for unique external IP addresses or domain names present in the logs.
+This log parser scans CloudTrail logs and searches (and prints) for valid IP addresses present in the logs.
 
