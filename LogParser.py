@@ -17,12 +17,12 @@ with open('Enter the path to the .json AWS CloudTrail log file', 'r') as f:
 	line = f.read()
 	reader = (json.loads(line))
   
-  # Step 2
+# Step 2
 	regex = r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'
 
 	ip = (re.findall(regex, str(reader)))
 	
-  # Step 3
+# Step 3
 	for i in ip:
 		valid_ip =  list(map(int, str(i).split(".")))
 				
