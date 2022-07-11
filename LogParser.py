@@ -29,4 +29,4 @@ with open('Enter the path to the .json AWS CloudTrail log file', 'r') as f:
 		for j in valid_ip:
 			if j > 255 or j <0:
 				ip.remove(i)
-        print ("Valid IP addresses: ", ip)
+        print ("Valid IP addresses: ", ip) 
